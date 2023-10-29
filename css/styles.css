@@ -1,0 +1,64 @@
+.mouse{
+    height: 30px;
+
+}
+
+.mouse:hover{
+    background-color: aqua;
+}
+
+.elementos p:first-of-type{
+    color: red;
+}
+
+button{
+    width: 100px;
+    height: 50px;
+}
+
+.desactived{
+    width: 100px;
+    height: 50px;
+}
+
+input[type="button"]:disabled{
+    background: red;
+  }
+
+
+
+.container-3{
+    background-color: black;
+    color: white;
+    width: 100px;
+    height: 50px;
+    text-align: center;
+    padding-top: 1px;
+    cursor: pointer;
+}
+
+.container-3:hover{
+    color: aqua;
+}
+
+.contenedor:empty{
+    background-color: blue;
+    width: 100px;
+    height: 100px;
+}
+
+.container{
+    width: 100px;
+    height: 100px;
+    background-color: red;
+    margin-bottom: 20px;
+    background-image: url(gatito.jpg);
+    background-size: contain;
+}
+
+.container-2:last-of-type{
+    background: none;
+    background: no-repeat;
+    background-color: blue;
+}
+
